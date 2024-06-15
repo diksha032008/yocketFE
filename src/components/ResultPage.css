@@ -1,0 +1,46 @@
+.result-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: linear-gradient(to right, #000, #007bff); 
+  color: #fff;
+  font-family: 'Press Start 2P', cursive;
+  padding: 20px;
+}
+
+
+.result-page-title {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.result-text {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.result-page-button {
+  padding: 15px 40px;
+  font-size: 1.5rem;
+  background-color: #007bff;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: 'Press Start 2P', cursive;
+  margin-top: 30px;
+}
+
+.result-page-button:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 20px;
+}
